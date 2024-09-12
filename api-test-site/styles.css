@@ -1,6 +1,10 @@
 body {
 	text-align: center;
-  	border: 3px solid red;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "semibold";
+  font-style: normal;
 }
 
 br {
@@ -9,3 +13,40 @@ br {
   display: block;
   font-size: 24%;
 }
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+}
+
+html, body, .container {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page-content {
+  break-inside: auto;
+}
+
+input {
+  background-color: black;
+  color: white;
+  border: solid;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "semibold";
+  font-style: normal;
+}
+
+
